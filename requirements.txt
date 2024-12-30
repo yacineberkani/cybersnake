@@ -1,0 +1,30 @@
+# Dépendances Web
+canvas-confetti@1.5.1
+google-fonts-orbitron@latest
+
+# Configuration Requise
+- Navigateur web moderne (Chrome, Firefox, Safari, Edge)
+- JavaScript activé
+- Support HTML5 Canvas
+- Résolution d'écran minimale : 800x600px
+
+# Bibliothèques CDN
+- Google Fonts (Orbitron)
+- Canvas Confetti
+
+# Compatibilité Navigateurs
+- Chrome (dernière version)
+- Firefox (dernière version)
+- Safari (dernière version)
+- Edge (dernière version)
+
+# Fonctionnalités Requises
+- Support ES6+
+- Canvas API
+- Local Storage (pour les scores)
+- WebGL (recommandé pour les effets)
+
+# Connexion Internet
+Requise pour :
+- Chargement initial des polices
+- Chargement de la bibliothèque confetti 

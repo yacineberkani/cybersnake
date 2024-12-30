@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSnake</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="title">CYBER<span class="highlight">SNAKE</span></h1>
+        <div class="score">Score: <span id="score">0</span></div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <button id="startButton" class="cyber-button">START GAME</button>
+        <div class="game-over" id="gameOverScreen">
+            <h2>GAME OVER</h2>
+            <p>Score: <span id="finalScore">0</span></p>
+            <button class="cyber-button" onclick="resetGame()">REJOUER</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
